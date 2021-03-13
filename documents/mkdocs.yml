@@ -1,0 +1,10 @@
+site_name: Ctf-Note
+
+nav: 
+- Home: index.md
+- Evenets:
+  - Affinity2020: events/affinity2020.md
+- PlatForm:
+  - CyberTalent: platform/cybertalent.md
+
+theme: readthedocs
