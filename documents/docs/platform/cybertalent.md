@@ -109,6 +109,16 @@
 	```
 	- 이 후 응답 결과에서 backup 파일이 나타남
 ---
+
+### Who am i?
+- URL: `http://34.76.107.218/whoami/`
+- Walk Throught
+	- 페이지 소스보기를 통해 보면 로그인이 가능한 계정 정보를 주고 있음.
+	- 프록시를 통해 Authorization 헤더를 보면 base64로 디코딩 되어있음
+	- 해당 필드를 admin으로 변경한 뒤 base64로 다시 디코딩 하고 Authorization의 값을 바꿔주면 플래그 획득 가능 
+
+---
+
 ## Network
 
 ### ARP Storm
@@ -137,7 +147,3 @@ print()
 
 print(base64.b64decode(strings).decode())
 ```
-
-###
-
-P@ssawordaya
