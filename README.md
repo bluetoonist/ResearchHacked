@@ -9,5 +9,6 @@
 - cd document
 - mkdocs serve
 
-### Author
-- jak010
+### Pages
+- `https://jak010.github.io/ctfNote/`
+
