@@ -97,6 +97,18 @@
 	- 위에서 얻은 flag를 hash-identifier 를 통해 보면 MD5 형식의 타입임을 알 수 있음
 	- 이 후 crackstation 에서 복호화하면 플래그가 나옴
 
+---
+### Newsletter
+
+- URL: `http://18.192.3.151/newsletter/`
+- Walk Throught
+	- 입력창에서 백 틱이나 | 를 막고 있음
+	- burpsuite를 이용해 입력 창에 다음과 같이 입력 후 요청하면 명령어가 실행
+	```
+	test@.|ls||
+	```
+	- 이 후 응답 결과에서 backup 파일이 나타남
+---
 ## Network
 
 ### ARP Storm
@@ -125,3 +137,7 @@ print()
 
 print(base64.b64decode(strings).decode())
 ```
+
+###
+
+P@ssawordaya
