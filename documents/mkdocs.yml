@@ -6,6 +6,7 @@ nav:
   - Affinity2020: events/affinity2020.md
 - PlatForm:
   - CyberTalent: platform/cybertalent.md
+  - PicoCTF: platform/picoctf.md
 
 theme:
   name: "material"
