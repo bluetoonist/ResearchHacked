@@ -1,10 +1,19 @@
-site_name: Ctf-Note
+site_name: Jak010 CTF Note
 
 nav: 
-- Home: index.md
-- Evenets:
+- README: readme.md
+- Events:
   - Affinity2020: events/affinity2020.md
 - PlatForm:
   - CyberTalent: platform/cybertalent.md
 
-theme: readthedocs
+theme:
+  name: "material"
+
+plugins:
+- search
+- mkdocstrings
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
